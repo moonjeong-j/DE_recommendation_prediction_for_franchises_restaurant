@@ -1,4 +1,5 @@
 ## 외식업 예비 창업자를 위한 프랜차이즈 브랜드 추천과 창업시 매출 예상 프로그램
+
 ## 1. 프로젝트 설명
 
 
@@ -16,12 +17,13 @@
 - 데이터 가공 및 모델링
     - pandas EDA(matplotlib, boxplot, scatterplot, heatmap)를 통한 이상치 제거, 오기입 데이터 삭제
     - XGB Regressor, Randomized Search를 활용해 연평균매출을 회귀모델링을 통해 예측 
-        - MAE 77.15 : 전체 연 평균 매출액이 26523(만원)임을 생각할 때, 77만원의 MAE면 괜찮은 성능이라고 평가함   
+        - **MAE 77.15 : 전체 연 평균 매출액이 26523(만원)임을 생각할 때, 77만원의 MAE면 괜찮은 성능이라고 평가함**   
+    - pickling을 통해 모델 용량을 축소하여 배포
 - 대시보드
     - metabase를 이용, ifame 형식으로 메뉴에 삽입
     - 사용자에게 api로 함께 제공 가능
 - Frontend
-    -Flask api
+    - Flask api
 
 
 
@@ -35,7 +37,7 @@
 
 <img width="500" src = "https://user-images.githubusercontent.com/102526342/222255550-3e6f634a-9d68-4c0d-8aad-c65187930880.png" >
 <img width="500" src = "https://user-images.githubusercontent.com/102526342/222255613-872cc13f-3e95-4038-8a9f-f744744290d6.png">
-![image](https://user-images.githubusercontent.com/102526342/222255653-a9616a82-abb7-43af-ac68-ee3eb3e18927.png)
+<img width="500" src = "https://user-images.githubusercontent.com/102526342/222255653-a9616a82-abb7-43af-ac68-ee3eb3e18927.png">
 
 ### (2) 서비스2 : 프랜차이즈 추천
 - 카테고리, 창업비용, 본사업력, 중요하게 생각하는 요소(1-3순위)를 입력하면 외식업 프랜차이즈 브랜드를 추천
@@ -55,3 +57,6 @@
 
 <img width="500" src ="https://user-images.githubusercontent.com/102526342/222256799-2251998a-5fc2-45dc-bd57-bb4028cdb0a2.png">
 
+---
+
+`Data Engineeing` `SQLite` `Metabase` `Flask` `Matplotlib` `bs4` `selenium` `pickling` 
