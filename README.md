@@ -34,7 +34,7 @@
 - 외식 분야 별 추천할만한 브랜드 TOP5 제시
 
 <img width="500" src = "https://user-images.githubusercontent.com/102526342/222255550-3e6f634a-9d68-4c0d-8aad-c65187930880.png" >
-![image](https://user-images.githubusercontent.com/102526342/222255613-872cc13f-3e95-4038-8a9f-f744744290d6.png)
+<img width="500" src = "https://user-images.githubusercontent.com/102526342/222255613-872cc13f-3e95-4038-8a9f-f744744290d6.png">
 ![image](https://user-images.githubusercontent.com/102526342/222255653-a9616a82-abb7-43af-ac68-ee3eb3e18927.png)
 
 ### (2) 서비스2 : 프랜차이즈 추천
@@ -53,5 +53,5 @@
 ### (4) 용어설명 페이지
 - 서비스2(프랜차이즈 추천)에서 알아야 하는 수익성, 공정성, 성장성, 안정성에 대한 용어 설명
 
-![image](https://user-images.githubusercontent.com/102526342/222256799-2251998a-5fc2-45dc-bd57-bb4028cdb0a2.png)
+<img width="500" src ="https://user-images.githubusercontent.com/102526342/222256799-2251998a-5fc2-45dc-bd57-bb4028cdb0a2.png">
 
