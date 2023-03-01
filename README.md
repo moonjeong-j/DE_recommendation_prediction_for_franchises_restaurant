@@ -59,4 +59,4 @@
 
 ---
 
-`Data Engineeing` `SQLite` `Metabase` `Flask` `Matplotlib` `bs4` `selenium` `pickling` 
+
