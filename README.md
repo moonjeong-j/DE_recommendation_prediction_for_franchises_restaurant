@@ -3,12 +3,12 @@
 ## 1. 프로젝트 설명
 
 
-(1) 주제 및 데이터 소개
+### (1) 주제 및 데이터 소개
 - 주제 : **외식업 예비 창업자 개인에 맞는 프랜차이즈 브랜드 추천 + 창업시 매출 예상**
 - 데이터 : 경기도 가맹정보 시스템(https://fair.gg.go.kr/fran/search/searchList.do) 크롤링
 - 16*5369 data
 
-(2) 구현 파이프라인, 사용 Tool
+### (2) 구현 파이프라인, 사용 Tool
 <img width="776" alt="image" src="https://user-images.githubusercontent.com/102526342/222263135-c5b54bd6-9326-4493-a9f6-20c083fb6929.png">
 - 동적 크롤링 
     - bs4 + selenium
