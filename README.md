@@ -52,6 +52,8 @@
 - 연 평균 총 매출액과 월 평균 총 매출액을 예측하는 서비스
 
 <img width="400" src ="https://user-images.githubusercontent.com/102526342/222256382-a8a020cb-a0a4-4774-830a-5a73f9b7b288.png">
+<img width="400" src ="https://user-images.githubusercontent.com/102526342/223434923-4f34671b-973b-40bd-82d2-eafd7caa5ec2.png">
+
 
 ### (4) 용어설명 페이지
 - 서비스2(프랜차이즈 추천)에서 알아야 하는 수익성, 공정성, 성장성, 안정성에 대한 용어 설명
