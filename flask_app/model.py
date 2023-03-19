@@ -120,11 +120,11 @@ def filtering_data(df, category, cost, is_checked_1, is_checked_2, is_checked_3,
 #predict.html, predict_result.html 페이지에서 쓰임
 # "5. ml_model.ipynb"를 통해 만든 "model_pickle.model"을 활용하여 매출 예측
 def predict_sales(statff_cnt, cost_per_area, nums_of_franchisees, new_nums_of_franchisee, start_cost, category_predict, year, debt_ratio):
-    import pickle
+    # import pickle
     import joblib
     import sklearn
     
-    model_pickle = pickle.load(open("model_pickle.model", 'rb'))
+    model_pickle = joblib.load(open("sales_predict_model_new.model", 'rb'))
     predicted_sales=model_pickle.predict(pd.DataFrame([[statff_cnt, cost_per_area, nums_of_franchisees, new_nums_of_franchisee, start_cost, category_predict, year, debt_ratio]],
                                                        columns =["statff_cnt", "cost_per_area", "nums_of_franchisees", "new_nums_of_franchisee", "start_cost", "category", "year", "debt_ratio"]
                                                        )

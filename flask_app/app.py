@@ -70,12 +70,15 @@ def predict_result():
       cost_per_area = int(request.form.get("cost_per_area")) 
       nums_of_franchisees = int(request.form.get("nums_of_franchisees")) 
       new_nums_of_franchisee = int(request.form.get("new_nums_of_franchisee")) 
-      statff_cnt = (request.form.get("statff_cnt")) 
+      statff_cnt = int(request.form.get("statff_cnt")) 
       year = int(request.form.get("year")) 
       debt_ratio = int(request.form.get("debt_ratio")) 
-      predicted_sales=int(model.predict_sales(statff_cnt, cost_per_area, 
-      nums_of_franchisees, new_nums_of_franchisee, start_cost, category_predict, 
-      year, debt_ratio) )
+      
+      predicted_sales=int(model.predict_sales(statff_cnt=statff_cnt, cost_per_area=cost_per_area, nums_of_franchisees=nums_of_franchisees, new_nums_of_franchisee=new_nums_of_franchisee, 
+                                             start_cost=start_cost, category_predict=category_predict, year=year, debt_ratio=debt_ratio)
+                          )
+      
+      
       predicted_sales_month =int(predicted_sales/12)
       
       #'predict_result.html' 페이지로 predicted_sales=predicted_sales, predicted_sales_month=predicted_sales_month 값을 넘겨준다
