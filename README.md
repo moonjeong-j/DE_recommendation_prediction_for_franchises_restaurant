@@ -18,7 +18,7 @@
 - 데이터 가공 및 모델링
     - pandas EDA(matplotlib, boxplot, scatterplot, heatmap)를 통한 이상치 제거, 오기입 데이터 삭제
     - XGB Regressor, Randomized Search를 활용해 연평균매출을 회귀모델링을 통해 예측 
-        - **MAE 77.15 : 전체 연 평균 매출액이 26523(만원)임을 생각할 때, 77만원의 MAE의 좋은 성능이라고 평가**   
+        - **MAE 109 : 전체 연 평균 매출액이 26523(만원)임을 생각할 때, 109(만원)의 MAE의 좋은 성능이라고 평가**   
     - pickling을 통해 모델 용량을 축소하여 배포
 - 대시보드
     - metabase를 이용, ifame 형식으로 메뉴에 삽입
